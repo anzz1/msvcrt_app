@@ -97,21 +97,21 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\bin\Win32\</OutDir>
+    <OutDir>..\bin\Win32\debug\</OutDir>
     <IntDir>..\build\obj\Win32\Debug\</IntDir>
     <TargetName>app</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\bin\x64\</OutDir>
+    <OutDir>..\bin\x64\debug\</OutDir>
     <IntDir>..\build\obj\x64\Debug\</IntDir>
     <TargetName>app</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\bin\ARM64\</OutDir>
+    <OutDir>..\bin\ARM64\debug\</OutDir>
     <IntDir>..\build\obj\ARM64\Debug\</IntDir>
     <TargetName>app</TargetName>
     <TargetExt>.exe</TargetExt>
