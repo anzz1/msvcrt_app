@@ -60,8 +60,7 @@ END
 
 IDD_DIALOG1 AFX_DIALOG_LAYOUT
 BEGIN
-    0,
-    0, 0, 100, 100
+    0
 END
 
 #endif    // English (United States) resources
